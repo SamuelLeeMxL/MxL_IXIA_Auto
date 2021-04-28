@@ -1,0 +1,1519 @@
+2021-04-27 14:16:44 CablePlug: INFO     samuel IXIAports
+2021-04-27 14:16:44 CablePlug: INFO     [['192.168.88.88', 2, 5], ['192.168.88.88', 2, 6], ['192.168.88.88', 2, 7], ['192.168.88.88', 2, 8]]
+2021-04-27 14:16:44 CablePlug: INFO     samuel IXIAports len
+2021-04-27 14:16:44 CablePlug: INFO     4
+2021-04-27 14:16:44 paramiko.transport DEBUG    starting thread (client mode): 0x37d3ffc8
+2021-04-27 14:16:44 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:16:44 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:16:44 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:16:44 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:16:44 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:16:44 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:16:44 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:16:44 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:16:44 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:16:46 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:16:46 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:16:46 paramiko.transport DEBUG    Adding ssh-rsa host key for 192.168.88.78: b'e82fd329a9fd3b34c008954312ca47d5'
+2021-04-27 14:16:46 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:16:46 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:16:46 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:16:46 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:16:46 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:16:46 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:16:47 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:16:47 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:16:47 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:16:47 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:16:47 paramiko.transport DEBUG    starting thread (client mode): 0x3732dc08
+2021-04-27 14:16:47 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:16:47 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:16:47 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:16:47 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:16:47 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:16:47 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:16:47 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:16:47 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:16:47 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:16:48 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:16:48 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:16:48 paramiko.transport DEBUG    Adding ssh-rsa host key for 192.168.88.80: b'4391eba7bf4c8a8e35ae7743bb2bc2f3'
+2021-04-27 14:16:48 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:16:48 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:16:48 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:16:48 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:16:48 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:16:48 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:16:51 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:16:51 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:16:51 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:16:51 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:16:51 CablePlug: INFO     Create a new config
+2021-04-27 14:16:58 CablePlug: INFO     Adding ports to configuration
+2021-04-27 14:16:58 CablePlug: INFO     Add topologies
+2021-04-27 14:16:58 CablePlug: INFO     Add ports to topologies
+2021-04-27 14:16:58 CablePlug: INFO     Add device groups to topologies
+2021-04-27 14:16:58 CablePlug: INFO     Add Ethernet stacks to device groups
+2021-04-27 14:16:59 CablePlug: INFO     Creating Traffic for Ethernet
+2021-04-27 14:16:59 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:17:35 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:17:35 CablePlug: INFO     Config port speed: speed2.5g
+2021-04-27 14:17:38 CablePlug: INFO     DurationTime:10
+2021-04-27 14:17:38 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:17:38 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:17:38 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:17:38 CablePlug: INFO     FrameRate:99
+2021-04-27 14:17:38 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:17:38 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:17:39 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:17:39 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:17:40 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:17:43 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:17:45 CablePlug: INFO     P1 Link Down 2500 Mbps
+2021-04-27 14:17:45 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:17:45 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:17:45 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:17:46 CablePlug: INFO     Getting the Link state values 2 sec
+2021-04-27 14:17:46 CablePlug: INFO     P1 Link Down 2500 Mbps
+2021-04-27 14:17:46 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:17:46 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:17:46 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:17:47 CablePlug: INFO     Getting the Link state values 3 sec
+2021-04-27 14:17:47 CablePlug: INFO     P1 Link Down 2500 Mbps
+2021-04-27 14:17:47 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:17:47 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:17:47 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:17:47 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:17:48 CablePlug: INFO     Getting the Link state values 4 sec
+2021-04-27 14:17:48 CablePlug: INFO     P1 Link Down 2500 Mbps
+2021-04-27 14:17:48 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:17:48 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:17:48 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:17:48 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:17:49 CablePlug: INFO     Getting the Link state values 5 sec
+2021-04-27 14:17:49 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:17:49 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:17:49 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:17:49 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:17:49 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:17:54 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:17:57 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:17:57 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:17:57 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:18:17 CablePlug: INFO     P1 Tx Frames 3222216 ,P2 Rx Frames 3222214
+2021-04-27 14:18:17 CablePlug: INFO     P2 Tx Frames 3220747 ,P1 Rx Frames 3220744
+2021-04-27 14:18:17 CablePlug: INFO     P3 Tx Frames 3219251 ,P4 Rx Frames 3219249
+2021-04-27 14:18:17 CablePlug: INFO     P4 Tx Frames 3217496 ,P3 Rx Frames 3217494
+2021-04-27 14:18:18 CablePlug: INFO     =================================================
+2021-04-27 14:18:18 CablePlug: INFO     =================================================
+2021-04-27 14:18:18 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:18:18 paramiko.transport DEBUG    starting thread (client mode): 0x37e9d4c8
+2021-04-27 14:18:18 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:18:18 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:18:18 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:18:18 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:18:18 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:18:18 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:18:18 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:18:18 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:18:18 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:18:20 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:18:20 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:18:20 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:18:20 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:18:20 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:18:20 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:18:20 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:18:20 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:18:21 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:18:21 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:18:21 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:18:26 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:18:26 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:18:26 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:18:26 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:18:27 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:18:27 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:18:27 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:18:32 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:18:32 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:18:32 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:18:32 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:18:33 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:18:33 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:18:33 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:18:38 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:18:38 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:18:38 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:18:38 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:18:38 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:18:38 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:18:41 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:18:41 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:18:41 paramiko.transport DEBUG    starting thread (client mode): 0x36044148
+2021-04-27 14:18:41 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:18:41 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:18:41 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:18:41 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:18:41 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:18:41 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:18:41 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:18:41 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:18:41 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:18:43 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:18:43 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:18:43 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:18:43 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:18:43 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:18:43 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:18:43 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:18:43 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:18:45 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:18:45 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:18:45 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:18:50 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:18:50 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:18:50 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:18:50 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:18:54 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:18:54 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:18:54 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:18:59 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:18:59 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:18:59 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:18:59 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:19:01 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:19:01 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:19:01 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:19:06 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:19:06 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:19:06 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:19:06 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:19:06 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:19:06 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:19:09 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:19:09 CablePlug: INFO     DurationTime:20
+2021-04-27 14:19:09 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:19:09 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:19:09 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:19:09 CablePlug: INFO     FrameRate:99
+2021-04-27 14:19:09 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:19:09 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:19:10 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:19:10 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:19:10 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:19:13 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:19:13 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:19:13 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:19:13 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:19:13 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:19:19 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:19:22 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:19:22 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:19:22 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:19:52 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:19:52 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:19:52 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:19:52 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 14:19:52 CablePlug: INFO     =================================================
+2021-04-27 14:19:52 CablePlug: INFO         =======  Test PASSED = 1  =======
+2021-04-27 14:19:52 CablePlug: INFO         =======  Test FAILED = 0  =======
+2021-04-27 14:19:52 CablePlug: INFO         =======  Link Up FAILED = 0  =======
+2021-04-27 14:19:52 CablePlug: INFO     =================================================
+2021-04-27 14:19:52 Main:    INFO     []
+2021-04-27 14:19:52 Main:    INFO     []
+2021-04-27 14:19:53 Main:    INFO     Total duration is 194 sec.
+2021-04-27 14:19:53 CablePlug: INFO     DurationTime:10
+2021-04-27 14:19:53 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:19:53 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:19:53 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:19:53 CablePlug: INFO     FrameRate:99
+2021-04-27 14:19:53 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:19:53 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:19:54 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:19:54 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:19:54 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:19:57 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:19:57 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:19:57 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:19:57 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:19:57 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:20:02 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:20:05 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:20:05 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:20:05 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:20:26 CablePlug: INFO     P1 Tx Frames 2814056 ,P2 Rx Frames 2814054
+2021-04-27 14:20:26 CablePlug: INFO     P2 Tx Frames 2812734 ,P1 Rx Frames 2812732
+2021-04-27 14:20:26 CablePlug: INFO     P3 Tx Frames 2811357 ,P4 Rx Frames 2811355
+2021-04-27 14:20:26 CablePlug: INFO     P4 Tx Frames 2809874 ,P3 Rx Frames 2809872
+2021-04-27 14:20:27 CablePlug: INFO     =================================================
+2021-04-27 14:20:27 CablePlug: INFO     =================================================
+2021-04-27 14:20:27 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:20:27 paramiko.transport DEBUG    starting thread (client mode): 0x36044dc8
+2021-04-27 14:20:27 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:20:27 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:20:27 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:20:27 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:20:27 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:20:27 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:20:27 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:20:27 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:20:27 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:20:28 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:20:28 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:20:28 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:20:28 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:20:28 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:20:28 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:20:28 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:20:28 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:20:29 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:20:29 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:20:29 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:20:34 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:20:34 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:20:34 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:20:34 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:20:35 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:20:35 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:20:35 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:20:40 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:20:40 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:20:40 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:20:40 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:20:41 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:20:41 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:20:41 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:20:46 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:20:46 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:20:46 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:20:46 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:20:46 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:20:46 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:20:49 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:20:49 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:20:49 paramiko.transport DEBUG    starting thread (client mode): 0x3604b208
+2021-04-27 14:20:49 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:20:49 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:20:49 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:20:49 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:20:49 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:20:49 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:20:49 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:20:49 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:20:49 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:20:50 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:20:50 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:20:50 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:20:50 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:20:50 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:20:50 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:20:50 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:20:50 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:20:52 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:20:52 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:20:52 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:20:57 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:20:57 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:20:57 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:20:58 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:21:01 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:21:01 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:21:01 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:21:07 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:21:07 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:21:07 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:21:07 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:21:09 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:21:09 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:21:09 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:21:14 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:21:14 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:21:14 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:21:14 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:21:14 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:21:14 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:21:17 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:21:17 CablePlug: INFO     DurationTime:20
+2021-04-27 14:21:17 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:21:17 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:21:17 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:21:17 CablePlug: INFO     FrameRate:99
+2021-04-27 14:21:17 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:21:17 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:21:17 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:21:17 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:21:17 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:21:20 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:21:20 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:21:20 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:21:20 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:21:20 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:21:26 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:21:29 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:21:29 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:21:29 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:21:59 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:21:59 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:21:59 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:21:59 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 999999
+2021-04-27 14:22:00 CablePlug: INFO     =================================================
+2021-04-27 14:22:00 CablePlug: INFO         =======  Test PASSED = 1  =======
+2021-04-27 14:22:00 CablePlug: INFO         =======  Test FAILED = 1  =======
+2021-04-27 14:22:00 CablePlug: INFO         =======  Link Up FAILED = 0  =======
+2021-04-27 14:22:00 CablePlug: INFO     =================================================
+2021-04-27 14:22:00 Main:    INFO     []
+2021-04-27 14:22:00 Main:    INFO     []
+2021-04-27 14:22:01 Main:    INFO     Total duration is 322 sec.
+2021-04-27 14:22:01 CablePlug: INFO     Create a new config
+2021-04-27 14:22:09 CablePlug: INFO     Adding ports to configuration
+2021-04-27 14:22:10 CablePlug: INFO     Add topologies
+2021-04-27 14:22:10 CablePlug: INFO     Add ports to topologies
+2021-04-27 14:22:10 CablePlug: INFO     Add device groups to topologies
+2021-04-27 14:22:10 CablePlug: INFO     Add Ethernet stacks to device groups
+2021-04-27 14:22:10 CablePlug: INFO     Creating Traffic for Ethernet
+2021-04-27 14:22:11 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:22:47 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:22:47 CablePlug: INFO     Config port speed: speed1000
+2021-04-27 14:22:52 CablePlug: INFO     DurationTime:10
+2021-04-27 14:22:52 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:22:52 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:22:52 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:22:52 CablePlug: INFO     FrameRate:99
+2021-04-27 14:22:52 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:22:52 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:22:59 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:22:59 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:23:00 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:23:03 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:23:03 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:03 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:03 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:23:03 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:04 CablePlug: INFO     Getting the Link state values 2 sec
+2021-04-27 14:23:04 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:04 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:04 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:23:04 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:05 CablePlug: INFO     Getting the Link state values 3 sec
+2021-04-27 14:23:05 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:05 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:05 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:23:05 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:05 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:06 CablePlug: INFO     Getting the Link state values 4 sec
+2021-04-27 14:23:06 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:06 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:06 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:23:06 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:06 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:07 CablePlug: INFO     Getting the Link state values 5 sec
+2021-04-27 14:23:07 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:07 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:07 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:23:07 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:07 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:08 CablePlug: INFO     Getting the Link state values 6 sec
+2021-04-27 14:23:08 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:08 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:08 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:23:08 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:08 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:09 CablePlug: INFO     Getting the Link state values 7 sec
+2021-04-27 14:23:09 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:09 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:09 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:23:09 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:09 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:10 CablePlug: INFO     Getting the Link state values 8 sec
+2021-04-27 14:23:10 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:10 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:10 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:23:10 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:10 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:11 CablePlug: INFO     Getting the Link state values 9 sec
+2021-04-27 14:23:11 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:11 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:11 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:23:11 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:11 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:12 CablePlug: INFO     Getting the Link state values 10 sec
+2021-04-27 14:23:12 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:23:12 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:12 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:23:12 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:12 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:13 CablePlug: INFO     Getting the Link state values 11 sec
+2021-04-27 14:23:13 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:23:13 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:23:13 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:23:13 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:23:13 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:23:17 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:23:20 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:23:20 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:23:20 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:23:38 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:23:38 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:23:40 CablePlug: INFO     P1 Tx Frames 976633 ,P2 Rx Frames 976633
+2021-04-27 14:23:40 CablePlug: INFO     P2 Tx Frames 976014 ,P1 Rx Frames 976013
+2021-04-27 14:23:40 CablePlug: INFO     P3 Tx Frames 975391 ,P4 Rx Frames 975391
+2021-04-27 14:23:40 CablePlug: INFO     P4 Tx Frames 974738 ,P3 Rx Frames 974738
+2021-04-27 14:23:41 CablePlug: INFO     =================================================
+2021-04-27 14:23:41 CablePlug: INFO     =================================================
+2021-04-27 14:23:41 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:23:41 paramiko.transport DEBUG    starting thread (client mode): 0x3604bd88
+2021-04-27 14:23:41 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:23:41 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:23:41 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:23:41 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:23:41 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:23:41 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:23:41 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:23:41 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:23:41 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:23:42 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:23:42 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:23:42 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:23:42 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:23:42 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:23:42 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:23:42 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:23:42 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:23:43 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:23:43 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:23:43 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:23:48 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:23:48 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:23:48 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:23:48 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:23:49 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:23:49 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:23:49 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:23:54 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:23:54 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:23:54 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:23:54 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:23:56 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:23:56 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:23:56 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:24:01 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:24:01 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:24:01 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:24:01 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:24:01 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:24:01 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:24:04 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:24:04 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:24:04 paramiko.transport DEBUG    starting thread (client mode): 0x36039d88
+2021-04-27 14:24:04 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:24:04 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:24:04 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:24:04 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:24:04 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:24:04 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:24:04 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:24:04 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:24:04 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:24:06 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:24:06 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:24:06 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:24:06 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:24:06 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:24:06 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:24:06 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:24:06 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:24:06 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:24:06 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:24:07 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:24:07 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:24:07 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:24:13 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:24:13 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:24:13 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:24:13 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:24:16 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:24:16 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:24:16 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:24:21 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:24:21 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:24:21 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:24:21 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:24:23 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:24:23 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:24:23 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:24:28 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:24:28 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:24:28 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:24:28 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:24:28 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:24:28 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:24:31 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:24:31 CablePlug: INFO     DurationTime:20
+2021-04-27 14:24:31 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:24:31 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:24:31 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:24:31 CablePlug: INFO     FrameRate:99
+2021-04-27 14:24:31 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:24:32 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:24:32 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:24:32 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:24:32 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:24:35 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:24:35 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:24:35 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:24:35 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:24:35 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:24:41 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:24:44 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:24:44 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:24:44 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:25:14 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:25:14 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:25:14 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:25:14 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 14:25:14 CablePlug: INFO     =================================================
+2021-04-27 14:25:14 CablePlug: INFO         =======  Test PASSED = 1  =======
+2021-04-27 14:25:14 CablePlug: INFO         =======  Test FAILED = 0  =======
+2021-04-27 14:25:14 CablePlug: INFO         =======  Link Up FAILED = 0  =======
+2021-04-27 14:25:14 CablePlug: INFO     =================================================
+2021-04-27 14:25:14 Main:    INFO     []
+2021-04-27 14:25:14 Main:    INFO     []
+2021-04-27 14:25:15 Main:    INFO     Total duration is 516 sec.
+2021-04-27 14:25:15 CablePlug: INFO     DurationTime:10
+2021-04-27 14:25:15 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:25:15 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:25:15 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:25:15 CablePlug: INFO     FrameRate:99
+2021-04-27 14:25:15 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:25:15 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:25:16 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:25:16 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:25:16 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:25:19 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:25:19 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:25:19 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:25:19 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:25:19 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:25:25 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:25:28 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:25:28 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:25:28 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:25:46 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:25:46 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:25:48 CablePlug: INFO     P1 Tx Frames 1163069 ,P2 Rx Frames 1163069
+2021-04-27 14:25:48 CablePlug: INFO     P2 Tx Frames 1162410 ,P1 Rx Frames 1162409
+2021-04-27 14:25:48 CablePlug: INFO     P3 Tx Frames 1161747 ,P4 Rx Frames 1161746
+2021-04-27 14:25:48 CablePlug: INFO     P4 Tx Frames 1161060 ,P3 Rx Frames 1161059
+2021-04-27 14:25:49 CablePlug: INFO     =================================================
+2021-04-27 14:25:49 CablePlug: INFO     =================================================
+2021-04-27 14:25:49 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:25:49 paramiko.transport DEBUG    starting thread (client mode): 0x36057f88
+2021-04-27 14:25:49 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:25:49 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:25:49 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:25:49 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:25:49 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:25:49 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:25:49 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:25:49 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:25:49 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:25:50 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:25:50 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:25:50 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:25:50 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:25:50 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:25:50 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:25:50 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:25:50 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:25:51 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:25:51 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:25:51 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:25:56 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:25:56 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:25:56 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:25:56 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:25:57 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:25:57 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:25:57 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:26:02 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:26:02 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:26:02 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:26:02 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:26:03 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:26:03 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:26:03 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:26:08 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:26:08 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:26:08 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:26:08 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:26:08 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:26:08 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:26:11 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:26:11 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:26:11 paramiko.transport DEBUG    starting thread (client mode): 0x36060748
+2021-04-27 14:26:11 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:26:11 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:26:11 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:26:11 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:26:11 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:26:11 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:26:11 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:26:11 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:26:11 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:26:12 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:26:12 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:26:12 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:26:12 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:26:12 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:26:13 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:26:13 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:26:13 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:26:14 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:26:14 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:26:15 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:26:15 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:26:15 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:26:20 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:26:20 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:26:20 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:26:20 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:26:24 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:26:24 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:26:24 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:26:29 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:26:29 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:26:29 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:26:29 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:26:31 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:26:31 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:26:31 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 14:26:36 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:26:36 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:26:36 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:26:36 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:26:36 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:26:36 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:26:39 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:26:39 CablePlug: INFO     DurationTime:20
+2021-04-27 14:26:39 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:26:39 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:26:39 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:26:39 CablePlug: INFO     FrameRate:99
+2021-04-27 14:26:39 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:26:39 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:26:39 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:26:39 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:26:39 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:26:42 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:26:42 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:26:42 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:26:42 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:26:42 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:26:43 CablePlug: INFO     Getting the Link state values 2 sec
+2021-04-27 14:26:43 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:26:43 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:26:43 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:26:43 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:26:44 CablePlug: INFO     Getting the Link state values 3 sec
+2021-04-27 14:26:44 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:26:44 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:26:44 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:26:44 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:26:44 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:26:45 CablePlug: INFO     Getting the Link state values 4 sec
+2021-04-27 14:26:45 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:26:45 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:26:45 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:26:45 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:26:45 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:26:46 CablePlug: INFO     Getting the Link state values 5 sec
+2021-04-27 14:26:47 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:26:47 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:26:47 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:26:47 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:26:47 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:26:48 CablePlug: INFO     Getting the Link state values 6 sec
+2021-04-27 14:26:48 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:26:48 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:26:48 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:26:48 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:26:48 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:26:53 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:26:57 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:26:57 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:26:57 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:27:27 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:27:27 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:27:27 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:27:27 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 14:27:27 CablePlug: INFO     =================================================
+2021-04-27 14:27:27 CablePlug: INFO         =======  Test PASSED = 2  =======
+2021-04-27 14:27:27 CablePlug: INFO         =======  Test FAILED = 0  =======
+2021-04-27 14:27:27 CablePlug: INFO         =======  Link Up FAILED = 1  =======
+2021-04-27 14:27:27 CablePlug: INFO     =================================================
+2021-04-27 14:27:27 Main:    INFO     []
+2021-04-27 14:27:27 Main:    INFO     []
+2021-04-27 14:27:28 Main:    INFO     Total duration is 649 sec.
+2021-04-27 14:27:28 paramiko.transport DEBUG    starting thread (client mode): 0x36060fc8
+2021-04-27 14:27:28 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:27:28 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:27:28 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:27:28 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:27:28 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:27:28 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:27:28 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:27:28 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:27:28 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:27:29 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:27:29 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:27:29 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:27:29 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:27:29 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:27:29 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:27:29 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:27:29 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:27:30 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:27:30 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:27:30 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:27:30 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:27:30 paramiko.transport DEBUG    starting thread (client mode): 0x3605ae08
+2021-04-27 14:27:30 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:27:30 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:27:30 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:27:30 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:27:30 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:27:30 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:27:30 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:27:30 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:27:30 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:27:31 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:27:31 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:27:31 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:27:31 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:27:31 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:27:31 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:27:31 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:27:31 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:27:35 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:27:35 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:27:35 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:27:35 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:27:35 CablePlug: INFO     Create a new config
+2021-04-27 14:27:42 CablePlug: INFO     Adding ports to configuration
+2021-04-27 14:27:42 CablePlug: INFO     Add topologies
+2021-04-27 14:27:42 CablePlug: INFO     Add ports to topologies
+2021-04-27 14:27:42 CablePlug: INFO     Add device groups to topologies
+2021-04-27 14:27:42 CablePlug: INFO     Add Ethernet stacks to device groups
+2021-04-27 14:27:43 CablePlug: INFO     Creating Traffic for Ethernet
+2021-04-27 14:27:43 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:28:17 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:28:17 CablePlug: INFO     Config port speed: speed2.5g
+2021-04-27 14:28:20 CablePlug: INFO     DurationTime:10
+2021-04-27 14:28:20 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:28:20 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:28:20 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:28:20 CablePlug: INFO     FrameRate:99
+2021-04-27 14:28:21 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:28:21 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:28:21 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:28:21 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:28:22 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:28:25 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:28:27 CablePlug: INFO     P1 Link Down 2500 Mbps
+2021-04-27 14:28:27 CablePlug: INFO     P2 Link Down 2500 Mbps
+2021-04-27 14:28:27 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:28:27 CablePlug: INFO     P4 Link Down 2500 Mbps
+2021-04-27 14:28:28 CablePlug: INFO     Getting the Link state values 2 sec
+2021-04-27 14:28:28 CablePlug: INFO     P1 Link Down 2500 Mbps
+2021-04-27 14:28:28 CablePlug: INFO     P2 Link Down 2500 Mbps
+2021-04-27 14:28:28 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:28:28 CablePlug: INFO     P4 Link Down 2500 Mbps
+2021-04-27 14:28:29 CablePlug: INFO     Getting the Link state values 3 sec
+2021-04-27 14:28:29 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:28:29 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:28:29 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:28:29 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:28:29 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:28:32 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:28:35 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:28:35 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:28:35 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:28:38 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:28:38 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:28:55 CablePlug: INFO     P1 Tx Frames 3010032 ,P2 Rx Frames 3010030
+2021-04-27 14:28:55 CablePlug: INFO     P2 Tx Frames 3008689 ,P1 Rx Frames 3008687
+2021-04-27 14:28:55 CablePlug: INFO     P3 Tx Frames 3007273 ,P4 Rx Frames 3007271
+2021-04-27 14:28:55 CablePlug: INFO     P4 Tx Frames 3005880 ,P3 Rx Frames 3005878
+2021-04-27 14:28:56 CablePlug: INFO     =================================================
+2021-04-27 14:28:56 CablePlug: INFO     =================================================
+2021-04-27 14:28:56 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:28:56 paramiko.transport DEBUG    starting thread (client mode): 0x36029ec8
+2021-04-27 14:28:56 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:28:56 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:28:56 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:28:56 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:28:56 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:28:56 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:28:56 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:28:56 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:28:56 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:28:57 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:28:57 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:28:57 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:28:57 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:28:57 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:28:57 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:28:57 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:28:57 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:28:58 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:28:58 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:28:58 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:29:01 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:29:01 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:29:03 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:29:03 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:29:03 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:29:03 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:29:05 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:29:05 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:29:05 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:29:06 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:29:06 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:29:10 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:29:10 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:29:10 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:29:10 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:29:11 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:29:11 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:29:11 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:29:16 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:29:16 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:29:16 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:29:16 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:29:16 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:29:16 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:29:19 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:29:19 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:29:19 paramiko.transport DEBUG    starting thread (client mode): 0x36057388
+2021-04-27 14:29:19 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:29:19 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:29:19 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:29:19 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:29:19 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:29:19 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:29:19 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:29:19 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:29:19 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:29:20 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:29:20 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:29:20 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:29:20 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:29:20 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:29:20 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:29:20 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:29:20 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:29:23 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:29:23 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:29:23 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:29:28 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:29:28 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:29:28 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:29:28 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:29:29 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:29:29 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:29:32 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:29:32 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:29:32 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:29:37 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:29:37 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:29:37 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:29:37 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:29:40 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:29:40 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:29:40 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:29:45 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:29:45 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:29:45 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:29:45 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:29:45 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:29:45 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:29:48 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:29:48 CablePlug: INFO     DurationTime:20
+2021-04-27 14:29:48 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:29:48 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:29:48 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:29:48 CablePlug: INFO     FrameRate:99
+2021-04-27 14:29:48 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:29:48 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:29:49 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:29:49 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:29:49 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:29:52 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:29:52 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:29:52 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:29:52 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:29:52 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:29:53 CablePlug: INFO     Getting the Link state values 2 sec
+2021-04-27 14:29:53 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:29:53 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:29:53 CablePlug: INFO     P3 Link Down 2500 Mbps
+2021-04-27 14:29:53 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:29:54 CablePlug: INFO     Getting the Link state values 3 sec
+2021-04-27 14:29:54 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:29:54 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:29:54 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:29:54 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:29:54 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:30:01 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:30:04 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:30:04 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:30:04 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:30:34 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:30:34 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:30:34 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:30:34 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 14:30:34 CablePlug: INFO     =================================================
+2021-04-27 14:30:34 CablePlug: INFO         =======  Test PASSED = 1  =======
+2021-04-27 14:30:34 CablePlug: INFO         =======  Test FAILED = 0  =======
+2021-04-27 14:30:34 CablePlug: INFO         =======  Link Up FAILED = 1  =======
+2021-04-27 14:30:34 CablePlug: INFO     =================================================
+2021-04-27 14:30:34 Main:    INFO     []
+2021-04-27 14:30:34 Main:    INFO     []
+2021-04-27 14:30:35 Main:    INFO     Total duration is 836 sec.
+2021-04-27 14:30:35 CablePlug: INFO     DurationTime:10
+2021-04-27 14:30:35 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:30:35 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:30:35 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:30:35 CablePlug: INFO     FrameRate:99
+2021-04-27 14:30:35 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:30:35 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:30:35 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:30:35 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:30:35 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:30:38 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:30:38 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:30:38 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:30:38 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:30:38 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:30:44 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:30:46 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:30:46 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:30:47 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:30:47 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:30:47 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:31:07 CablePlug: INFO     P1 Tx Frames 2446659 ,P2 Rx Frames 2446657
+2021-04-27 14:31:07 CablePlug: INFO     P2 Tx Frames 2445228 ,P1 Rx Frames 2445226
+2021-04-27 14:31:07 CablePlug: INFO     P3 Tx Frames 2443826 ,P4 Rx Frames 2443824
+2021-04-27 14:31:07 CablePlug: INFO     P4 Tx Frames 2442296 ,P3 Rx Frames 2442294
+2021-04-27 14:31:08 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:31:08 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:31:09 CablePlug: INFO     =================================================
+2021-04-27 14:31:09 CablePlug: INFO     =================================================
+2021-04-27 14:31:09 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:31:09 paramiko.transport DEBUG    starting thread (client mode): 0x36074308
+2021-04-27 14:31:09 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:31:09 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:31:09 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:31:09 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:31:09 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:31:09 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:31:09 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:31:09 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:31:09 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:31:10 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:31:10 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:31:10 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:31:10 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:31:10 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:31:10 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:31:10 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:31:10 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:31:11 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:31:11 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:31:11 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:31:14 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:31:14 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:31:16 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:31:16 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:31:16 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:31:16 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:31:17 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:31:17 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:31:17 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:31:22 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:31:22 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:31:22 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:31:22 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:31:23 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:31:23 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:31:23 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:31:28 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:31:28 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:31:28 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:31:28 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:31:28 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:31:28 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:31:31 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:31:31 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:31:31 paramiko.transport DEBUG    starting thread (client mode): 0x360527c8
+2021-04-27 14:31:31 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:31:31 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:31:31 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:31:31 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:31:31 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:31:31 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:31:31 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:31:31 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:31:31 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:31:33 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:31:33 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:31:33 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:31:33 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:31:33 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:31:33 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:31:33 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:31:33 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:31:35 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:31:35 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:31:35 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:31:36 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:31:36 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:31:40 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:31:40 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:31:40 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:31:40 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:31:44 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:31:44 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:31:44 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:31:49 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:31:49 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:31:49 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:31:49 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:31:52 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:31:52 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:31:52 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:31:57 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:31:57 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:31:57 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:31:57 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:31:57 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:31:57 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:32:00 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:32:00 CablePlug: INFO     DurationTime:20
+2021-04-27 14:32:00 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:32:00 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:32:00 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:32:00 CablePlug: INFO     FrameRate:99
+2021-04-27 14:32:00 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:32:00 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:32:01 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:32:01 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:32:01 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:32:04 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:32:04 CablePlug: INFO     P1 Link Up 2500 Mbps
+2021-04-27 14:32:04 CablePlug: INFO     P2 Link Up 2500 Mbps
+2021-04-27 14:32:04 CablePlug: INFO     P3 Link Up 2500 Mbps
+2021-04-27 14:32:04 CablePlug: INFO     P4 Link Up 2500 Mbps
+2021-04-27 14:32:10 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:32:13 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:32:13 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:32:13 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:32:43 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:32:43 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:32:43 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:32:43 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 14:32:43 CablePlug: INFO     =================================================
+2021-04-27 14:32:43 CablePlug: INFO         =======  Test PASSED = 2  =======
+2021-04-27 14:32:43 CablePlug: INFO         =======  Test FAILED = 0  =======
+2021-04-27 14:32:43 CablePlug: INFO         =======  Link Up FAILED = 1  =======
+2021-04-27 14:32:43 CablePlug: INFO     =================================================
+2021-04-27 14:32:43 Main:    INFO     []
+2021-04-27 14:32:43 Main:    INFO     []
+2021-04-27 14:32:44 Main:    INFO     Total duration is 965 sec.
+2021-04-27 14:32:44 CablePlug: INFO     Create a new config
+2021-04-27 14:32:52 CablePlug: INFO     Adding ports to configuration
+2021-04-27 14:32:53 CablePlug: INFO     Add topologies
+2021-04-27 14:32:53 CablePlug: INFO     Add ports to topologies
+2021-04-27 14:32:53 CablePlug: INFO     Add device groups to topologies
+2021-04-27 14:32:53 CablePlug: INFO     Add Ethernet stacks to device groups
+2021-04-27 14:32:53 CablePlug: INFO     Creating Traffic for Ethernet
+2021-04-27 14:32:53 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:33:30 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:33:30 CablePlug: INFO     Config port speed: speed1000
+2021-04-27 14:33:34 CablePlug: INFO     DurationTime:10
+2021-04-27 14:33:34 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:33:34 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:33:34 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:33:34 CablePlug: INFO     FrameRate:99
+2021-04-27 14:33:34 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:33:34 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:33:35 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:33:35 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:33:35 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:33:38 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:33:38 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:33:38 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:33:40 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:40 CablePlug: INFO     P2 Link Down 1000 Mbps
+2021-04-27 14:33:40 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:33:40 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:41 CablePlug: INFO     Getting the Link state values 2 sec
+2021-04-27 14:33:41 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:41 CablePlug: INFO     P2 Link Down 1000 Mbps
+2021-04-27 14:33:41 CablePlug: INFO     P3 Link Down 1000 Mbps
+2021-04-27 14:33:41 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:42 CablePlug: INFO     Getting the Link state values 3 sec
+2021-04-27 14:33:42 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:42 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:42 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:42 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:42 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:43 CablePlug: INFO     Getting the Link state values 4 sec
+2021-04-27 14:33:43 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:43 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:43 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:43 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:43 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:44 CablePlug: INFO     Getting the Link state values 5 sec
+2021-04-27 14:33:44 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:44 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:44 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:44 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:44 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:45 CablePlug: INFO     Getting the Link state values 6 sec
+2021-04-27 14:33:45 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:45 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:45 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:45 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:45 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:46 CablePlug: INFO     Getting the Link state values 7 sec
+2021-04-27 14:33:46 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:46 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:46 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:46 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:46 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:47 CablePlug: INFO     Getting the Link state values 8 sec
+2021-04-27 14:33:47 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:47 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:47 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:47 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:47 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:48 CablePlug: INFO     Getting the Link state values 9 sec
+2021-04-27 14:33:48 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:48 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:48 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:48 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:48 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:49 CablePlug: INFO     Getting the Link state values 10 sec
+2021-04-27 14:33:49 CablePlug: INFO     P1 Link Down 1000 Mbps
+2021-04-27 14:33:49 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:49 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:49 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:49 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:50 CablePlug: INFO     Getting the Link state values 11 sec
+2021-04-27 14:33:50 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:33:50 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:33:50 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:33:50 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:33:50 CablePlug: INFO     Link up time over 10 seconds
+2021-04-27 14:33:53 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:33:56 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:33:56 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:33:56 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:34:01 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:34:01 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:34:06 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:34:06 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:34:16 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:34:16 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:34:16 CablePlug: INFO     P1 Tx Frames 1110181 ,P2 Rx Frames 1110180
+2021-04-27 14:34:16 CablePlug: INFO     P2 Tx Frames 1109514 ,P1 Rx Frames 1109513
+2021-04-27 14:34:16 CablePlug: INFO     P3 Tx Frames 1108853 ,P4 Rx Frames 1108853
+2021-04-27 14:34:16 CablePlug: INFO     P4 Tx Frames 1108194 ,P3 Rx Frames 1108193
+2021-04-27 14:34:17 CablePlug: INFO     =================================================
+2021-04-27 14:34:17 CablePlug: INFO     =================================================
+2021-04-27 14:34:17 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:34:17 paramiko.transport DEBUG    starting thread (client mode): 0x36074148
+2021-04-27 14:34:17 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:34:17 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:34:17 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:34:17 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:34:17 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:34:17 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:34:17 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:34:17 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:34:17 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:34:18 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:34:18 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:34:18 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:34:18 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:34:18 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:34:18 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:34:18 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:34:18 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:34:19 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:34:19 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:34:19 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:34:24 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:34:24 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:34:24 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:34:24 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:34:25 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:34:25 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:34:25 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:34:29 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:34:29 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:34:30 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:34:30 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:34:30 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:34:30 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:34:31 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:34:31 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:34:31 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:34:36 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:34:36 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:34:36 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:34:36 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:34:37 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:34:37 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:34:40 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:34:40 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:34:40 paramiko.transport DEBUG    starting thread (client mode): 0x3606e988
+2021-04-27 14:34:40 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:34:40 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:34:40 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:34:40 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:34:40 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:34:40 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:34:40 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:34:40 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:34:40 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:34:41 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:34:41 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:34:41 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:34:41 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:34:41 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:34:41 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:34:41 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:34:41 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:34:44 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:34:44 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:34:44 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:34:45 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:34:45 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:34:49 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:34:49 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:34:49 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:34:49 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:34:53 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:34:53 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:34:53 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:34:58 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:34:58 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:34:58 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:34:58 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:35:01 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:35:01 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:35:01 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:35:06 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:35:06 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:35:06 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:35:06 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:35:06 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:35:06 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:35:09 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:35:09 CablePlug: INFO     DurationTime:20
+2021-04-27 14:35:09 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:35:09 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:35:09 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:35:09 CablePlug: INFO     FrameRate:99
+2021-04-27 14:35:09 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:35:09 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:35:09 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:35:09 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:35:09 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:35:12 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:35:12 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:35:12 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:35:12 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:35:12 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:35:18 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:35:21 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:35:21 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:35:21 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:35:46 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:35:46 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:35:51 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:35:52 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:35:52 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:35:52 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 14:35:52 CablePlug: INFO     =================================================
+2021-04-27 14:35:52 CablePlug: INFO         =======  Test PASSED = 1  =======
+2021-04-27 14:35:52 CablePlug: INFO         =======  Test FAILED = 0  =======
+2021-04-27 14:35:52 CablePlug: INFO         =======  Link Up FAILED = 0  =======
+2021-04-27 14:35:52 CablePlug: INFO     =================================================
+2021-04-27 14:35:52 Main:    INFO     []
+2021-04-27 14:35:52 Main:    INFO     []
+2021-04-27 14:35:53 Main:    INFO     Total duration is 1154 sec.
+2021-04-27 14:35:53 CablePlug: INFO     DurationTime:10
+2021-04-27 14:35:53 CablePlug: INFO     TransmissionType:continuous
+2021-04-27 14:35:53 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:35:53 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:35:53 CablePlug: INFO     FrameRate:99
+2021-04-27 14:35:53 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:35:53 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:35:53 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:35:53 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:35:53 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:35:56 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:35:56 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:35:56 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:35:56 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:35:56 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:36:02 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:36:05 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:36:05 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:36:05 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:36:08 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:36:08 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:36:14 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:36:14 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:36:25 CablePlug: INFO     P1 Tx Frames 1094319 ,P2 Rx Frames 1094318
+2021-04-27 14:36:25 CablePlug: INFO     P2 Tx Frames 1093675 ,P1 Rx Frames 1093675
+2021-04-27 14:36:25 CablePlug: INFO     P3 Tx Frames 1093000 ,P4 Rx Frames 1093000
+2021-04-27 14:36:25 CablePlug: INFO     P4 Tx Frames 1092307 ,P3 Rx Frames 1092307
+2021-04-27 14:36:26 CablePlug: INFO     =================================================
+2021-04-27 14:36:26 CablePlug: INFO     =================================================
+2021-04-27 14:36:26 Main:    INFO     debug for samuel cable switch 1 setting start
+2021-04-27 14:36:26 paramiko.transport DEBUG    starting thread (client mode): 0x3606eac8
+2021-04-27 14:36:26 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:36:26 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:36:26 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:36:26 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:36:26 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:36:26 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:36:26 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:36:26 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:36:26 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:36:27 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:36:27 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:36:27 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:36:27 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:36:27 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:36:27 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:36:27 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:36:27 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:36:28 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:36:28 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:36:28 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:36:28 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:36:28 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:36:33 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:36:33 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:36:33 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:36:33 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:36:34 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:36:34 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:36:34 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:36:36 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:36:36 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:36:39 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:36:39 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:36:39 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:36:39 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:36:40 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:36:40 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:36:40 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:36:45 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:36:45 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:36:45 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:36:45 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:36:45 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:36:45 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:36:48 Main:    INFO     debug for samuel cable switch 1 setting end
+2021-04-27 14:36:48 Main:    INFO     debug for samuel cable switch 2 setting start
+2021-04-27 14:36:48 paramiko.transport DEBUG    starting thread (client mode): 0x37f00448
+2021-04-27 14:36:48 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 14:36:48 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 14:36:48 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 14:36:48 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 14:36:48 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 14:36:48 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 14:36:48 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 14:36:48 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 14:36:48 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 14:36:50 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 14:36:50 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 14:36:50 paramiko.transport DEBUG    userauth is OK
+2021-04-27 14:36:50 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 14:36:50 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 14:36:50 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 14:36:50 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 14:36:50 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 14:36:53 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 14:36:53 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 14:36:53 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:36:57 paramiko.transport DEBUG    Received global request "keepalive@openssh.com"
+2021-04-27 14:36:57 paramiko.transport DEBUG    Rejecting "keepalive@openssh.com" global request from server.
+2021-04-27 14:36:58 paramiko.transport DEBUG    [chan 1] Max packet in: 32768 bytes
+2021-04-27 14:36:58 paramiko.transport DEBUG    [chan 1] Max packet out: 32759 bytes
+2021-04-27 14:36:58 paramiko.transport DEBUG    Secsh channel 1 opened.
+2021-04-27 14:36:58 paramiko.transport DEBUG    [chan 1] Sesch channel 1 request ok
+2021-04-27 14:37:02 paramiko.transport DEBUG    [chan 1] EOF received (1)
+2021-04-27 14:37:02 paramiko.transport DEBUG    [chan 1] EOF sent (1)
+2021-04-27 14:37:02 Main:    INFO     Ethernet switch port 07 on
+2021-04-27 14:37:07 paramiko.transport DEBUG    [chan 2] Max packet in: 32768 bytes
+2021-04-27 14:37:07 paramiko.transport DEBUG    [chan 2] Max packet out: 32759 bytes
+2021-04-27 14:37:07 paramiko.transport DEBUG    Secsh channel 2 opened.
+2021-04-27 14:37:07 paramiko.transport DEBUG    [chan 2] Sesch channel 2 request ok
+2021-04-27 14:37:10 paramiko.transport DEBUG    [chan 2] EOF received (2)
+2021-04-27 14:37:10 Main:    INFO     Ethernet switch port 02 on
+2021-04-27 14:37:10 paramiko.transport DEBUG    [chan 2] EOF sent (2)
+2021-04-27 14:37:15 paramiko.transport DEBUG    [chan 3] Max packet in: 32768 bytes
+2021-04-27 14:37:15 paramiko.transport DEBUG    [chan 3] Max packet out: 32759 bytes
+2021-04-27 14:37:15 paramiko.transport DEBUG    Secsh channel 3 opened.
+2021-04-27 14:37:15 paramiko.transport DEBUG    [chan 3] Sesch channel 3 request ok
+2021-04-27 14:37:15 paramiko.transport DEBUG    [chan 3] EOF received (3)
+2021-04-27 14:37:15 paramiko.transport DEBUG    [chan 3] EOF sent (3)
+2021-04-27 14:37:18 Main:    INFO     debug for samuel cable switch 2 setting end
+2021-04-27 14:37:18 CablePlug: INFO     DurationTime:20
+2021-04-27 14:37:18 CablePlug: INFO     TransmissionType:fixedFrameCount
+2021-04-27 14:37:18 CablePlug: INFO     FixedSize:1518
+2021-04-27 14:37:18 CablePlug: INFO     FrameSizeType:fixed
+2021-04-27 14:37:18 CablePlug: INFO     FrameRate:99
+2021-04-27 14:37:18 CablePlug: INFO     FrameRate2:99
+2021-04-27 14:37:18 CablePlug: INFO     Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:37:18 CablePlug: INFO     Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:37:18 CablePlug: INFO     Starting All Protocols
+2021-04-27 14:37:18 CablePlug: INFO     Sleep 3 sec for protocols to start
+2021-04-27 14:37:21 CablePlug: INFO     Getting the Link state values 1 sec
+2021-04-27 14:37:21 CablePlug: INFO     P1 Link Up 1000 Mbps
+2021-04-27 14:37:21 CablePlug: INFO     P2 Link Up 1000 Mbps
+2021-04-27 14:37:21 CablePlug: INFO     P3 Link Up 1000 Mbps
+2021-04-27 14:37:21 CablePlug: INFO     P4 Link Up 1000 Mbps
+2021-04-27 14:37:30 CablePlug: INFO     Sleep 3 sec to send all traffic
+2021-04-27 14:37:33 CablePlug: INFO     Checking Stats to check if traffic was sent OK
+2021-04-27 14:37:33 CablePlug: INFO     Getting the object for view Traffic Item Statistics
+2021-04-27 14:37:33 CablePlug: INFO     Getting the Tx/Rx Frames values
+2021-04-27 14:38:03 CablePlug: INFO     P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 14:38:03 CablePlug: INFO     P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 14:38:03 CablePlug: INFO     P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 14:38:03 CablePlug: INFO     P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 14:38:03 CablePlug: INFO     =================================================
+2021-04-27 14:38:03 CablePlug: INFO         =======  Test PASSED = 2  =======
+2021-04-27 14:38:03 CablePlug: INFO         =======  Test FAILED = 0  =======
+2021-04-27 14:38:03 CablePlug: INFO         =======  Link Up FAILED = 0  =======
+2021-04-27 14:38:03 CablePlug: INFO     =================================================
+2021-04-27 14:38:03 Main:    INFO     []
+2021-04-27 14:38:03 Main:    INFO     []
+2021-04-27 14:38:04 Main:    INFO     Total duration is 1285 sec.
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread
+2021-04-27 14:38:04 paramiko.transport DEBUG    EOF in transport thread

@@ -1,0 +1,101 @@
+2021-04-27 13:20:18,070 INFO  [['192.168.88.88', 2, 5], ['192.168.88.88', 2, 6], ['192.168.88.88', 2, 7], ['192.168.88.88', 2, 8]]
+2021-04-27 13:20:30,907 INFO  Create a new config
+2021-04-27 13:20:32,533 INFO  Adding ports to configuration
+2021-04-27 13:20:32,924 INFO  Add topologies
+2021-04-27 13:20:33,036 INFO  Add ports to topologies
+2021-04-27 13:20:33,140 INFO  Add device groups to topologies
+2021-04-27 13:20:33,203 INFO  Add Ethernet stacks to device groups
+2021-04-27 13:20:33,803 INFO  Creating Traffic for Ethernet
+2021-04-27 13:20:35,539 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:21:12,584 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:21:12,585 INFO  Config port speed: speed2.5g
+2021-04-27 13:21:14,622 INFO  DurationTime:10
+2021-04-27 13:21:14,623 INFO  TransmissionType:continuous
+2021-04-27 13:21:14,624 INFO  FixedSize:1518
+2021-04-27 13:21:14,625 INFO  FrameSizeType:fixed
+2021-04-27 13:21:14,626 INFO  FrameRate:99
+2021-04-27 13:21:14,627 INFO  FrameRate2:99
+2021-04-27 13:21:14,702 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:21:15,626 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:21:15,627 INFO  Starting All Protocols
+2021-04-27 13:21:16,544 INFO  Sleep 3 sec for protocols to start
+2021-04-27 13:21:19,575 INFO  Getting the Link state values 1 sec
+2021-04-27 13:21:19,585 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:19,586 INFO  P2 Link Down 2500 Mbps
+2021-04-27 13:21:19,586 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:19,586 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:20,589 INFO  Getting the Link state values 2 sec
+2021-04-27 13:21:20,597 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:20,598 INFO  P2 Link Down 2500 Mbps
+2021-04-27 13:21:20,598 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:20,599 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:21,603 INFO  Getting the Link state values 3 sec
+2021-04-27 13:21:21,611 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:21,612 INFO  P2 Link Down 2500 Mbps
+2021-04-27 13:21:21,612 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:21,613 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:21,614 INFO  Link up time over 10 seconds
+2021-04-27 13:21:22,618 INFO  Getting the Link state values 4 sec
+2021-04-27 13:21:22,636 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:22,637 INFO  P2 Link Down 2500 Mbps
+2021-04-27 13:21:22,640 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:22,643 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:22,648 INFO  Link up time over 10 seconds
+2021-04-27 13:21:23,671 INFO  Getting the Link state values 5 sec
+2021-04-27 13:21:23,683 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:23,684 INFO  P2 Link Down 2500 Mbps
+2021-04-27 13:21:23,685 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:23,687 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:23,687 INFO  Link up time over 10 seconds
+2021-04-27 13:21:24,704 INFO  Getting the Link state values 6 sec
+2021-04-27 13:21:24,719 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:24,720 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:21:24,722 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:24,724 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:24,726 INFO  Link up time over 10 seconds
+2021-04-27 13:21:25,734 INFO  Getting the Link state values 7 sec
+2021-04-27 13:21:25,739 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:25,740 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:21:25,740 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:25,741 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:25,743 INFO  Link up time over 10 seconds
+2021-04-27 13:21:26,758 INFO  Getting the Link state values 8 sec
+2021-04-27 13:21:26,773 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:26,774 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:21:26,775 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:26,776 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:26,777 INFO  Link up time over 10 seconds
+2021-04-27 13:21:27,787 INFO  Getting the Link state values 9 sec
+2021-04-27 13:21:27,794 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:27,795 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:21:27,796 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:27,796 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:27,797 INFO  Link up time over 10 seconds
+2021-04-27 13:21:28,801 INFO  Getting the Link state values 10 sec
+2021-04-27 13:21:28,817 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:28,818 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:21:28,819 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:28,820 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:28,821 INFO  Link up time over 10 seconds
+2021-04-27 13:21:29,829 INFO  Getting the Link state values 11 sec
+2021-04-27 13:21:29,841 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:21:29,842 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:21:29,843 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:29,844 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:29,845 INFO  Link up time over 10 seconds
+2021-04-27 13:21:30,854 INFO  Getting the Link state values 12 sec
+2021-04-27 13:21:30,870 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:21:30,872 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:21:30,875 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:21:30,878 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:21:30,880 INFO  Link up time over 10 seconds
+2021-04-27 13:21:36,388 INFO  Sleep 3 sec to send all traffic
+2021-04-27 13:21:39,403 INFO  Checking Stats to check if traffic was sent OK
+2021-04-27 13:21:39,404 INFO  Getting the object for view Traffic Item Statistics
+2021-04-27 13:21:39,406 INFO  Getting the Tx/Rx Frames values
+2021-04-27 13:21:59,419 INFO  P1 Tx Frames 2427783 ,P2 Rx Frames 2427781
+2021-04-27 13:21:59,419 INFO  P2 Tx Frames 2425782 ,P1 Rx Frames 2425778
+2021-04-27 13:21:59,419 INFO  P3 Tx Frames 2424405 ,P4 Rx Frames 2424403
+2021-04-27 13:21:59,420 INFO  P4 Tx Frames 2422965 ,P3 Rx Frames 2422963
+2021-04-27 13:22:00,432 INFO  =================================================
+2021-04-27 13:22:00,433 INFO  =================================================

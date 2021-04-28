@@ -1,0 +1,24 @@
+2021-04-27 13:44:04 CablePlug: INFO     [['192.168.88.88', 2, 5], ['192.168.88.88', 2, 6], ['192.168.88.88', 2, 7], ['192.168.88.88', 2, 8]]
+2021-04-27 13:44:04 paramiko.transport DEBUG    starting thread (client mode): 0x41c604c8
+2021-04-27 13:44:04 paramiko.transport DEBUG    Local version/idstring: SSH-2.0-paramiko_2.7.2
+2021-04-27 13:44:04 paramiko.transport DEBUG    Remote version/idstring: SSH-2.0-dropbear
+2021-04-27 13:44:04 paramiko.transport INFO     Connected (version 2.0, client dropbear)
+2021-04-27 13:44:04 paramiko.transport DEBUG    kex algos:['curve25519-sha256@libssh.org', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'kexguess2@matt.ucc.asn.au'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes256-ctr'] client mac:['hmac-sha1', 'hmac-sha2-256'] server mac:['hmac-sha1', 'hmac-sha2-256'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+2021-04-27 13:44:04 paramiko.transport DEBUG    Kex agreed: curve25519-sha256@libssh.org
+2021-04-27 13:44:04 paramiko.transport DEBUG    HostKey agreed: ssh-rsa
+2021-04-27 13:44:04 paramiko.transport DEBUG    Cipher agreed: aes128-ctr
+2021-04-27 13:44:04 paramiko.transport DEBUG    MAC agreed: hmac-sha2-256
+2021-04-27 13:44:04 paramiko.transport DEBUG    Compression agreed: none
+2021-04-27 13:44:05 paramiko.transport DEBUG    kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2021-04-27 13:44:05 paramiko.transport DEBUG    Switch to new keys ...
+2021-04-27 13:44:05 paramiko.transport DEBUG    Adding ssh-rsa host key for 192.168.88.78: b'e82fd329a9fd3b34c008954312ca47d5'
+2021-04-27 13:44:05 paramiko.transport DEBUG    userauth is OK
+2021-04-27 13:44:05 paramiko.transport INFO     Authentication (password) successful!
+2021-04-27 13:44:05 paramiko.transport DEBUG    [chan 0] Max packet in: 32768 bytes
+2021-04-27 13:44:05 paramiko.transport DEBUG    [chan 0] Max packet out: 32759 bytes
+2021-04-27 13:44:05 paramiko.transport DEBUG    Secsh channel 0 opened.
+2021-04-27 13:44:05 paramiko.transport DEBUG    [chan 0] Sesch channel 0 request ok
+2021-04-27 13:44:06 paramiko.transport DEBUG    [chan 0] EOF received (0)
+2021-04-27 13:44:06 paramiko.transport DEBUG    [chan 0] EOF sent (0)
+2021-04-27 13:44:06 Main:    INFO     Ethernet switch port 01 on
+2021-04-27 13:44:06 paramiko.transport DEBUG    EOF in transport thread

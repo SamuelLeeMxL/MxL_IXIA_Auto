@@ -1,0 +1,53 @@
+2021-04-27 14:11:18,480 INFO  samuel IXIAports
+2021-04-27 14:11:18,481 INFO  [['192.168.88.88', 2, 5], ['192.168.88.88', 2, 6], ['192.168.88.88', 2, 7], ['192.168.88.88', 2, 8]]
+2021-04-27 14:11:18,482 INFO  samuel IXIAports len
+2021-04-27 14:11:18,483 INFO  4
+2021-04-27 14:11:24,867 INFO  Create a new config
+2021-04-27 14:11:28,330 INFO  Adding ports to configuration
+2021-04-27 14:11:28,882 INFO  Add topologies
+2021-04-27 14:11:28,894 INFO  Add ports to topologies
+2021-04-27 14:11:28,907 INFO  Add device groups to topologies
+2021-04-27 14:11:28,919 INFO  Add Ethernet stacks to device groups
+2021-04-27 14:11:29,054 INFO  Creating Traffic for Ethernet
+2021-04-27 14:11:29,732 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:11:42,720 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:11:42,721 INFO  Config port speed: speed2.5g
+2021-04-27 14:11:44,770 INFO  DurationTime:10
+2021-04-27 14:11:44,771 INFO  TransmissionType:continuous
+2021-04-27 14:11:44,771 INFO  FixedSize:1518
+2021-04-27 14:11:44,772 INFO  FrameSizeType:fixed
+2021-04-27 14:11:44,772 INFO  FrameRate:99
+2021-04-27 14:11:44,772 INFO  FrameRate2:99
+2021-04-27 14:11:44,782 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 14:11:45,770 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 14:11:45,771 INFO  Starting All Protocols
+2021-04-27 14:11:46,193 INFO  Sleep 3 sec for protocols to start
+2021-04-27 14:11:49,202 INFO  Getting the Link state values 1 sec
+2021-04-27 14:11:52,513 INFO  P1 Link Up 2500 Mbps
+2021-04-27 14:11:52,514 INFO  P2 Link Down 1000 Mbps
+2021-04-27 14:11:52,515 INFO  P3 Link Up 2500 Mbps
+2021-04-27 14:11:52,515 INFO  P4 Link Up 2500 Mbps
+2021-04-27 14:11:53,522 INFO  Getting the Link state values 2 sec
+2021-04-27 14:11:53,534 INFO  P1 Link Up 2500 Mbps
+2021-04-27 14:11:53,534 INFO  P2 Link Down 1000 Mbps
+2021-04-27 14:11:53,535 INFO  P3 Link Up 2500 Mbps
+2021-04-27 14:11:53,538 INFO  P4 Link Up 2500 Mbps
+2021-04-27 14:11:54,541 INFO  Getting the Link state values 3 sec
+2021-04-27 14:11:54,557 INFO  P1 Link Up 2500 Mbps
+2021-04-27 14:11:54,558 INFO  P2 Link Down 1000 Mbps
+2021-04-27 14:11:54,560 INFO  P3 Link Up 2500 Mbps
+2021-04-27 14:11:54,561 INFO  P4 Link Up 2500 Mbps
+2021-04-27 14:11:54,566 INFO  Link up time over 10 seconds
+2021-04-27 14:11:55,586 INFO  Getting the Link state values 4 sec
+2021-04-27 14:11:55,600 INFO  P1 Link Up 2500 Mbps
+2021-04-27 14:11:55,602 INFO  P2 Link Down 1000 Mbps
+2021-04-27 14:11:55,604 INFO  P3 Link Up 2500 Mbps
+2021-04-27 14:11:55,605 INFO  P4 Link Up 2500 Mbps
+2021-04-27 14:11:55,606 INFO  Link up time over 10 seconds
+2021-04-27 14:11:56,617 INFO  Getting the Link state values 5 sec
+2021-04-27 14:11:56,633 INFO  P1 Link Up 2500 Mbps
+2021-04-27 14:11:56,635 INFO  P2 Link Up 1000 Mbps
+2021-04-27 14:11:56,637 INFO  P3 Link Up 2500 Mbps
+2021-04-27 14:11:56,639 INFO  P4 Link Up 2500 Mbps
+2021-04-27 14:11:56,641 INFO  Link up time over 10 seconds
+2021-04-27 14:11:59,811 INFO  Sleep 3 sec to send all traffic

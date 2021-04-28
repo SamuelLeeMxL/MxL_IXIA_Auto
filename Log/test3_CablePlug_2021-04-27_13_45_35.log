@@ -1,0 +1,229 @@
+2021-04-27 13:45:35,447 INFO  [['192.168.88.88', 2, 5], ['192.168.88.88', 2, 6], ['192.168.88.88', 2, 7], ['192.168.88.88', 2, 8]]
+2021-04-27 13:45:41,739 INFO  Create a new config
+2021-04-27 13:45:49,485 INFO  Adding ports to configuration
+2021-04-27 13:45:50,049 INFO  Add topologies
+2021-04-27 13:45:50,063 INFO  Add ports to topologies
+2021-04-27 13:45:50,081 INFO  Add device groups to topologies
+2021-04-27 13:45:50,103 INFO  Add Ethernet stacks to device groups
+2021-04-27 13:45:50,249 INFO  Creating Traffic for Ethernet
+2021-04-27 13:45:50,854 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:46:26,157 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:46:26,157 INFO  Config port speed: speed2.5g
+2021-04-27 13:46:28,593 INFO  DurationTime:10
+2021-04-27 13:46:28,594 INFO  TransmissionType:continuous
+2021-04-27 13:46:28,598 INFO  FixedSize:1518
+2021-04-27 13:46:28,601 INFO  FrameSizeType:fixed
+2021-04-27 13:46:28,605 INFO  FrameRate:99
+2021-04-27 13:46:28,608 INFO  FrameRate2:99
+2021-04-27 13:46:28,638 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:46:29,593 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:46:29,594 INFO  Starting All Protocols
+2021-04-27 13:46:31,011 INFO  Sleep 3 sec for protocols to start
+2021-04-27 13:46:34,026 INFO  Getting the Link state values 1 sec
+2021-04-27 13:46:36,125 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:46:36,125 INFO  P2 Link Down 2500 Mbps
+2021-04-27 13:46:36,127 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:46:36,128 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:46:37,135 INFO  Getting the Link state values 2 sec
+2021-04-27 13:46:37,149 INFO  P1 Link Down 2500 Mbps
+2021-04-27 13:46:37,150 INFO  P2 Link Down 2500 Mbps
+2021-04-27 13:46:37,153 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:46:37,156 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:46:38,173 INFO  Getting the Link state values 3 sec
+2021-04-27 13:46:38,193 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:46:38,194 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:46:38,197 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:46:38,199 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:46:38,201 INFO  Link up time over 10 seconds
+2021-04-27 13:46:41,786 INFO  Sleep 3 sec to send all traffic
+2021-04-27 13:46:44,799 INFO  Checking Stats to check if traffic was sent OK
+2021-04-27 13:46:44,800 INFO  Getting the object for view Traffic Item Statistics
+2021-04-27 13:46:44,806 INFO  Getting the Tx/Rx Frames values
+2021-04-27 13:47:04,824 INFO  P1 Tx Frames 2869440 ,P2 Rx Frames 2869438
+2021-04-27 13:47:04,825 INFO  P2 Tx Frames 2867990 ,P1 Rx Frames 2867988
+2021-04-27 13:47:04,831 INFO  P3 Tx Frames 2866519 ,P4 Rx Frames 2866517
+2021-04-27 13:47:04,833 INFO  P4 Tx Frames 2864730 ,P3 Rx Frames 2864728
+2021-04-27 13:47:05,844 INFO  =================================================
+2021-04-27 13:47:05,845 INFO  =================================================
+2021-04-27 13:47:56,543 INFO  DurationTime:20
+2021-04-27 13:47:56,547 INFO  TransmissionType:fixedFrameCount
+2021-04-27 13:47:56,549 INFO  FixedSize:1518
+2021-04-27 13:47:56,552 INFO  FrameSizeType:fixed
+2021-04-27 13:47:56,555 INFO  FrameRate:99
+2021-04-27 13:47:56,561 INFO  FrameRate2:99
+2021-04-27 13:47:56,664 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:47:57,185 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:47:57,187 INFO  Starting All Protocols
+2021-04-27 13:47:57,220 INFO  Sleep 3 sec for protocols to start
+2021-04-27 13:48:00,226 INFO  Getting the Link state values 1 sec
+2021-04-27 13:48:00,233 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:00,233 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:00,234 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:00,235 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:01,249 INFO  Getting the Link state values 2 sec
+2021-04-27 13:48:01,256 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:01,257 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:01,258 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:01,260 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:02,264 INFO  Getting the Link state values 3 sec
+2021-04-27 13:48:02,283 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:02,284 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:02,286 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:02,290 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:02,293 INFO  Link up time over 10 seconds
+2021-04-27 13:48:03,312 INFO  Getting the Link state values 4 sec
+2021-04-27 13:48:03,320 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:03,321 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:03,322 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:03,323 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:03,325 INFO  Link up time over 10 seconds
+2021-04-27 13:48:04,336 INFO  Getting the Link state values 5 sec
+2021-04-27 13:48:04,343 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:04,343 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:04,345 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:04,345 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:04,346 INFO  Link up time over 10 seconds
+2021-04-27 13:48:05,351 INFO  Getting the Link state values 6 sec
+2021-04-27 13:48:05,362 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:05,364 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:05,367 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:05,371 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:05,373 INFO  Link up time over 10 seconds
+2021-04-27 13:48:06,389 INFO  Getting the Link state values 7 sec
+2021-04-27 13:48:06,406 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:06,407 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:06,409 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:06,411 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:06,413 INFO  Link up time over 10 seconds
+2021-04-27 13:48:07,428 INFO  Getting the Link state values 8 sec
+2021-04-27 13:48:07,434 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:07,434 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:07,436 INFO  P3 Link Down 2500 Mbps
+2021-04-27 13:48:07,437 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:07,438 INFO  Link up time over 10 seconds
+2021-04-27 13:48:08,447 INFO  Getting the Link state values 9 sec
+2021-04-27 13:48:08,462 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:08,464 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:08,465 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:48:08,467 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:08,469 INFO  Link up time over 10 seconds
+2021-04-27 13:48:14,856 INFO  Sleep 3 sec to send all traffic
+2021-04-27 13:48:17,865 INFO  Checking Stats to check if traffic was sent OK
+2021-04-27 13:48:17,867 INFO  Getting the object for view Traffic Item Statistics
+2021-04-27 13:48:17,875 INFO  Getting the Tx/Rx Frames values
+2021-04-27 13:48:47,895 INFO  P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 13:48:47,896 INFO  P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 13:48:47,900 INFO  P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 13:48:47,902 INFO  P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 13:48:47,905 INFO  =================================================
+2021-04-27 13:48:47,908 INFO      =======  Test PASSED = 1  =======
+2021-04-27 13:48:47,915 INFO      =======  Test FAILED = 0  =======
+2021-04-27 13:48:47,919 INFO      =======  Link Up FAILED = 1  =======
+2021-04-27 13:48:47,922 INFO  =================================================
+2021-04-27 13:48:48,931 INFO  DurationTime:10
+2021-04-27 13:48:48,938 INFO  TransmissionType:continuous
+2021-04-27 13:48:48,939 INFO  FixedSize:1518
+2021-04-27 13:48:48,941 INFO  FrameSizeType:fixed
+2021-04-27 13:48:48,943 INFO  FrameRate:99
+2021-04-27 13:48:48,946 INFO  FrameRate2:99
+2021-04-27 13:48:48,980 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:48:49,505 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:48:49,505 INFO  Starting All Protocols
+2021-04-27 13:48:49,528 INFO  Sleep 3 sec for protocols to start
+2021-04-27 13:48:52,540 INFO  Getting the Link state values 1 sec
+2021-04-27 13:48:52,556 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:48:52,558 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:48:52,560 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:48:52,563 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:48:58,888 INFO  Sleep 3 sec to send all traffic
+2021-04-27 13:49:01,890 INFO  Checking Stats to check if traffic was sent OK
+2021-04-27 13:49:01,891 INFO  Getting the object for view Traffic Item Statistics
+2021-04-27 13:49:01,899 INFO  Getting the Tx/Rx Frames values
+2021-04-27 13:49:21,920 INFO  P1 Tx Frames 2594000 ,P2 Rx Frames 2593998
+2021-04-27 13:49:21,922 INFO  P2 Tx Frames 2592617 ,P1 Rx Frames 2592614
+2021-04-27 13:49:21,927 INFO  P3 Tx Frames 2591152 ,P4 Rx Frames 2591150
+2021-04-27 13:49:21,928 INFO  P4 Tx Frames 2589708 ,P3 Rx Frames 2589704
+2021-04-27 13:49:22,935 INFO  =================================================
+2021-04-27 13:49:22,936 INFO  =================================================
+2021-04-27 13:50:13,269 INFO  DurationTime:20
+2021-04-27 13:50:13,275 INFO  TransmissionType:fixedFrameCount
+2021-04-27 13:50:13,278 INFO  FixedSize:1518
+2021-04-27 13:50:13,281 INFO  FrameSizeType:fixed
+2021-04-27 13:50:13,283 INFO  FrameRate:99
+2021-04-27 13:50:13,287 INFO  FrameRate2:99
+2021-04-27 13:50:14,436 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:50:14,956 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:50:14,957 INFO  Starting All Protocols
+2021-04-27 13:50:14,989 INFO  Sleep 3 sec for protocols to start
+2021-04-27 13:50:17,996 INFO  Getting the Link state values 1 sec
+2021-04-27 13:50:18,009 INFO  P1 Link Up 2500 Mbps
+2021-04-27 13:50:18,011 INFO  P2 Link Up 2500 Mbps
+2021-04-27 13:50:18,015 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:50:18,017 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:50:25,009 INFO  Sleep 3 sec to send all traffic
+2021-04-27 13:50:28,019 INFO  Checking Stats to check if traffic was sent OK
+2021-04-27 13:50:28,021 INFO  Getting the object for view Traffic Item Statistics
+2021-04-27 13:50:28,029 INFO  Getting the Tx/Rx Frames values
+2021-04-27 13:50:58,055 INFO  P1 Tx Frames 1000000 ,P2 Rx Frames 1000000
+2021-04-27 13:50:58,056 INFO  P2 Tx Frames 1000000 ,P1 Rx Frames 1000000
+2021-04-27 13:50:58,060 INFO  P3 Tx Frames 1000000 ,P4 Rx Frames 1000000
+2021-04-27 13:50:58,061 INFO  P4 Tx Frames 1000000 ,P3 Rx Frames 1000000
+2021-04-27 13:50:58,064 INFO  =================================================
+2021-04-27 13:50:58,066 INFO      =======  Test PASSED = 2  =======
+2021-04-27 13:50:58,068 INFO      =======  Test FAILED = 0  =======
+2021-04-27 13:50:58,070 INFO      =======  Link Up FAILED = 1  =======
+2021-04-27 13:50:58,077 INFO  =================================================
+2021-04-27 13:50:59,101 INFO  Create a new config
+2021-04-27 13:51:06,678 INFO  Adding ports to configuration
+2021-04-27 13:51:06,908 INFO  Add topologies
+2021-04-27 13:51:06,921 INFO  Add ports to topologies
+2021-04-27 13:51:06,933 INFO  Add device groups to topologies
+2021-04-27 13:51:06,948 INFO  Add Ethernet stacks to device groups
+2021-04-27 13:51:07,074 INFO  Creating Traffic for Ethernet
+2021-04-27 13:51:07,769 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:51:41,150 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:51:41,151 INFO  Config port speed: speed1000
+2021-04-27 13:51:43,190 INFO  DurationTime:10
+2021-04-27 13:51:43,192 INFO  TransmissionType:continuous
+2021-04-27 13:51:43,195 INFO  FixedSize:1518
+2021-04-27 13:51:43,199 INFO  FrameSizeType:fixed
+2021-04-27 13:51:43,205 INFO  FrameRate:99
+2021-04-27 13:51:43,206 INFO  FrameRate2:99
+2021-04-27 13:51:43,241 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:51:44,193 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:51:44,194 INFO  Starting All Protocols
+2021-04-27 13:51:44,746 INFO  Sleep 3 sec for protocols to start
+2021-04-27 13:51:47,757 INFO  Getting the Link state values 1 sec
+2021-04-27 13:51:51,127 INFO  P1 Link Up 1000 Mbps
+2021-04-27 13:51:51,128 INFO  P2 Link Up 1000 Mbps
+2021-04-27 13:51:51,132 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:51:51,133 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:51:54,024 INFO  Sleep 3 sec to send all traffic
+2021-04-27 13:51:57,031 INFO  Checking Stats to check if traffic was sent OK
+2021-04-27 13:51:57,033 INFO  Getting the object for view Traffic Item Statistics
+2021-04-27 13:51:57,039 INFO  Getting the Tx/Rx Frames values
+2021-04-27 13:52:17,058 INFO  P1 Tx Frames 1067191 ,P2 Rx Frames 1067191
+2021-04-27 13:52:17,060 INFO  P2 Tx Frames 1066553 ,P1 Rx Frames 1066552
+2021-04-27 13:52:17,067 INFO  P3 Tx Frames 2664894 ,P4 Rx Frames 2664893
+2021-04-27 13:52:17,070 INFO  P4 Tx Frames 2663353 ,P3 Rx Frames 2663351
+2021-04-27 13:52:18,079 INFO  =================================================
+2021-04-27 13:52:18,080 INFO  =================================================
+2021-04-27 13:53:08,173 INFO  DurationTime:20
+2021-04-27 13:53:08,178 INFO  TransmissionType:fixedFrameCount
+2021-04-27 13:53:08,180 INFO  FixedSize:1518
+2021-04-27 13:53:08,182 INFO  FrameSizeType:fixed
+2021-04-27 13:53:08,183 INFO  FrameRate:99
+2021-04-27 13:53:08,185 INFO  FrameRate2:99
+2021-04-27 13:53:08,656 INFO  Assigning ports to ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4'] ...
+2021-04-27 13:53:09,176 INFO  Connect PASSED assigning ports. Got ['::ixNet::OBJ-/vport:1', '::ixNet::OBJ-/vport:2', '::ixNet::OBJ-/vport:3', '::ixNet::OBJ-/vport:4']
+2021-04-27 13:53:09,178 INFO  Starting All Protocols
+2021-04-27 13:53:09,211 INFO  Sleep 3 sec for protocols to start
+2021-04-27 13:53:12,218 INFO  Getting the Link state values 1 sec
+2021-04-27 13:53:12,238 INFO  P1 Link Up 1000 Mbps
+2021-04-27 13:53:12,239 INFO  P2 Link Up 1000 Mbps
+2021-04-27 13:53:12,242 INFO  P3 Link Up 2500 Mbps
+2021-04-27 13:53:12,245 INFO  P4 Link Up 2500 Mbps
+2021-04-27 13:53:19,201 INFO  Sleep 3 sec to send all traffic
+2021-04-27 13:53:22,207 INFO  Checking Stats to check if traffic was sent OK
+2021-04-27 13:53:22,208 INFO  Getting the object for view Traffic Item Statistics
+2021-04-27 13:53:22,215 INFO  Getting the Tx/Rx Frames values
